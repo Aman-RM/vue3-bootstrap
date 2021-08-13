@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4">
+  <div class="px-4 bg-gray-100">
     <div class="d-flex flex-md-row flex-column justify-content-between align-items-center">
       <div class="text-md-start text-center">  
         <h3 class="fs-6 text-secondary">Welcome Johnathan</h3>
