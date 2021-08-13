@@ -8,3 +8,9 @@ export default {
   components: {}
 }
 </script>
+
+<style>
+.text-indigo {
+    color: var(--bs-indigo);
+}
+</style>

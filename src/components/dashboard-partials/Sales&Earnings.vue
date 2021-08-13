@@ -1,6 +1,6 @@
 <template>
-  <div class="container mt-5 d-flex align-items-center d-flex-md-row d-flex-col">
-    <div class="row w-100">
+  <div class="mt-5 d-flex align-items-center d-flex-md-row d-flex-col">
+    <div class="row w-100 g-5 row-cols-1 row-cols-sm-2">
       <div class="col w-50">
         <div class="report">
             <p class="pt-4 fs-5 text-primary fw-bold ps-4">Hey, John <br> download latest report</p>
@@ -8,8 +8,8 @@
               <button type="button" class="text-white btn btn-primary">Download</button>
             </div>
         </div>
-        <div class="container mt-4">
-          <div class="row">          
+        <div class="container mt-4 p-0">
+          <div class="row g-2">          
             <div class="p-4 card bg-primary col me-4" style="border-radius: 15px;">
               <div class="mb-3 d-flex justify-content-between">  
                 <label class="text-white">Earnings</label>
@@ -19,12 +19,14 @@
               <span class="text-white">Monthly Revenue</span>
             </div>
             <div class="p-4 bg-white card col position-relative" style="border-radius: 15px;">
-              <div class="mb-3 d-flex justify-content-between">  
-                <label class="text-secondary">Monthly Sales</label>
+              <div class="d-flex justify-content-between mb-3">
+                <div class="d-flex flex-column">
+                  <label class="text-secondary">Monthly Sales</label>
+                  <label class="text-dark fw-bold fs-4">45620</label>
+                </div> 
                 <img src="assets/sales.png" alt="dollar" style="height: 50px">
               </div>
-              <label class="text-white fw-bold fs-4">$ 45620</label>
-              <img class="bottom-0 position-absolute w-100 start-0" src="assets/wave.png" alt="wave">
+              <img class="bottom-0 position-absolute w-100 start-0 h-50" src="assets/wave.png" alt="wave">
             </div>
           </div>
         </div>
@@ -50,8 +52,8 @@
 .report {
   background-image: url('/assets/rounded-rect.png');
   height: 210px;
-  width: auto;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 </style>

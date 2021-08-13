@@ -5,15 +5,15 @@
 			<SearchIcon class="text-secondary ms-4" style="height: 25px"/>
 		</div>
 			<div class="d-flex">
-				<div class="d-flex align-items-center">
+				<div class="d-md-flex align-items-center d-none">
 					<ShoppingCartIcon class="text-secondary" style="height: 25px"/>
 					<ChatAltIcon class="text-secondary ms-4" style="height: 25px"/>
 					<BellIcon class="text-secondary ms-4" style="height: 25px"/>
 				</div>
 				<div class="d-flex align-items-center ms-4">
 					<img src="logo/avatar.png" alt="avatar" style="height: 25px">
-					<span class="fs-6 ms-3">Hi, <strong>Johnathan</strong> </span>
-					<ChevronDownIcon class="text-secondary ms-2" style="height: 15px"/>
+					<span class="fs-6 ms-3 d-none d-md-block">Hi, <strong>Johnathan</strong> </span>
+					<ChevronDownIcon class="text-secondary ms-2 d-none d-md-block" style="height: 15px"/>
 				</div>
 			</div>
     </div>

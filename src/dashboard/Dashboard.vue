@@ -1,11 +1,11 @@
 <template>
   <div class="px-4">
-    <div class="d-flex justify-content-between align-items-center">
-      <div>  
+    <div class="d-flex flex-md-row flex-column justify-content-between align-items-center">
+      <div class="text-md-start text-center">  
         <h3 class="fs-6 text-secondary">Welcome Johnathan</h3>
         <h2 class="fs-4 text-dark">Analytical Dashboard</h2>
       </div>
-      <div class="d-flex align-items-center">
+      <div class="d-flex align-items-center mt-2 mt-md-0">
         <div class="dropdown">
           <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             Today 23 March

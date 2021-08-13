@@ -1,12 +1,12 @@
 <template>
-  <div class="border-end col-auto col-md-3 col-xl-2 col-xxl-2 d-flex bg-white flex-column align-items-center align-items-sm-start pt-2 text-white min-vh-100">
+  <div class="border-end col-auto col-md-3 col-xl-2 col-xxl-2 d-flex bg-white flex-column align-items-center align-items-md-start pt-2 text-white min-vh-100">
     <!-- DESKTOP MENU -->
       <img src="logo/logo.png" class="mb-5 mt-4 ps-5"/>
-      <h3 class="text-uppercase d-none d-sm-flex align-items-center text-secondary fs-6">
+      <h3 class="text-uppercase d-none d-md-flex align-items-center text-secondary fs-6">
         <div class="bg-secondary me-3 ms-2" style="height: 1px; width: 25px;">&nbsp;</div>
         Personal
       </h3>
-      <ul v-for="menu in menus1" :key="menu" class="ps-5 nav nav-pills flex-column mb-sm-5 mb-0 align-items-center align-items-sm-start" id="menu">
+      <ul v-for="menu in menus1" :key="menu" class="ps-5 nav nav-pills flex-column mb-md-5 mb-0 align-items-center align-items-md-start" id="menu">
         <li class="nav-item">
 					<router-link
 						v-for="item in menu"
@@ -19,16 +19,16 @@
 						class="me-3"
 						style="height: 20px"
 					/>
-          <span class="d-none d-sm-inline fs-6"> {{ item.title }} </span>
+          <span class="d-none d-md-inline fs-6"> {{ item.title }} </span>
 					</router-link>
         </li>
       </ul>
 
-      <h3 class="text-uppercase d-none d-sm-flex align-items-center text-secondary fs-6">
+      <h3 class="text-uppercase d-none d-md-flex align-items-center text-secondary fs-6">
         <div class="bg-secondary me-3 ms-2" style="height: 1px; width: 25px;">&nbsp;</div>
         professional
       </h3>
-      <ul v-for="menu in menus2" :key="menu" class="ps-5 nav nav-pills flex-column mb-sm-5 mb-0 align-items-center align-items-sm-start" id="menu">
+      <ul v-for="menu in menus2" :key="menu" class="ps-5 nav nav-pills flex-column mb-md-5 mb-0 align-items-center align-items-md-start" id="menu">
         <li class="nav-item">
 					<router-link
 						v-for="item in menu"
@@ -41,7 +41,7 @@
 						class="me-3"
 						style="height: 20px"
 					/>
-          <span class="d-none d-sm-inline fs-6"> {{ item.title }} </span>
+          <span class="d-none d-md-inline fs-6"> {{ item.title }} </span>
 					</router-link>
         </li>
       </ul>
