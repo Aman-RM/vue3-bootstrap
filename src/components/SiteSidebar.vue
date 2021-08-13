@@ -26,7 +26,7 @@
 
       <h3 class="text-uppercase d-none d-sm-flex align-items-center text-secondary fs-6">
         <div class="bg-secondary me-3 ms-2" style="height: 1px; width: 25px;">&nbsp;</div>
-        Proffesional
+        professional
       </h3>
       <ul v-for="menu in menus2" :key="menu" class="ps-5 nav nav-pills flex-column mb-sm-5 mb-0 align-items-center align-items-sm-start" id="menu">
         <li class="nav-item">
@@ -91,12 +91,6 @@ export default {
     CogIcon,
     UsersIcon,
     XIcon,
-  },
-
-  props: {
-    open: {
-      type: Boolean,
-    },
   },
 
   emits: ['toggle'],
@@ -181,7 +175,7 @@ export default {
 .sidebar-footer-bg {
   background-image: url('/assets/sidebar-foot.png');
   height: 150px;
-  width: 250px;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }

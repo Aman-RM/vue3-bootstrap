@@ -1,0 +1,57 @@
+<template>
+  <div class="container mt-5 d-flex align-items-center d-flex-md-row d-flex-col">
+    <div class="row w-100">
+      <div class="col w-50">
+        <div class="report">
+            <p class="pt-4 fs-5 text-primary fw-bold ps-4">Hey, John <br> download latest report</p>
+            <div class="ps-4">
+              <button type="button" class="text-white btn btn-primary">Download</button>
+            </div>
+        </div>
+        <div class="container mt-4">
+          <div class="row">          
+            <div class="p-4 card bg-primary col me-4" style="border-radius: 15px;">
+              <div class="mb-3 d-flex justify-content-between">  
+                <label class="text-white">Earnings</label>
+                <img src="assets/dollar.png" alt="dollar" style="height: 50px">
+              </div>
+              <label class="text-white fw-bold fs-4">$ 45620</label>
+              <span class="text-white">Monthly Revenue</span>
+            </div>
+            <div class="p-4 bg-white card col position-relative" style="border-radius: 15px;">
+              <div class="mb-3 d-flex justify-content-between">  
+                <label class="text-secondary">Monthly Sales</label>
+                <img src="assets/sales.png" alt="dollar" style="height: 50px">
+              </div>
+              <label class="text-white fw-bold fs-4">$ 45620</label>
+              <img class="bottom-0 position-absolute w-100 start-0" src="assets/wave.png" alt="wave">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col card p-4 w-50" style="border-radius: 15px;">
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <p class="fs-5 text-black fw-bold mb-0">Sales Overview</p>
+            <label class="text-secondary" style="font-size: 12px">Ample Admin vs Pixel Admin</label>
+          </div>
+          <ul class="d-flex">
+            <li class="text-primary me-5">Ample Admin</li>
+            <li class="text-primary">Pixel Admin</li>
+          </ul>
+        </div>
+        <img class="mt-4" src="assets/chart.png" alt="chart" style="height: 280px;">
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.report {
+  background-image: url('/assets/rounded-rect.png');
+  height: 210px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+</style>
