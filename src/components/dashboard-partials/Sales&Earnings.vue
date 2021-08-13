@@ -38,7 +38,7 @@
             <label class="text-secondary" style="font-size: 12px">Ample Admin vs Pixel Admin</label>
           </div>
           <ul class="d-flex">
-            <li class="text-primary me-5">Ample Admin</li>
+            <li class="text-primary me-5">Ample</li>
             <li class="text-primary">Pixel Admin</li>
           </ul>
         </div>

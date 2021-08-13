@@ -2,8 +2,8 @@
   <div class="border-end col-auto col-md-3 col-xl-2 col-xxl-2 d-flex bg-white flex-column align-items-center align-items-md-start pt-2 text-white min-vh-100">
     <!-- DESKTOP MENU -->
       <img src="logo/logo.png" class="mb-5 mt-4 ps-5"/>
-      <h3 class="text-uppercase d-none d-md-flex align-items-center text-secondary fs-6">
-        <div class="bg-secondary me-3 ms-2" style="height: 1px; width: 25px;">&nbsp;</div>
+      <h3 class="text-uppercase d-none d-md-flex align-items-center text-gray-400 fs-6">
+        <div class="bg-gray-400 me-3 ms-2" style="height: 1px; width: 25px;">&nbsp;</div>
         Personal
       </h3>
       <ul v-for="menu in menus1" :key="menu" class="ps-5 nav nav-pills flex-column mb-md-5 mb-0 align-items-center align-items-md-start" id="menu">
@@ -12,7 +12,7 @@
 						v-for="item in menu"
 						:key="item"
 						:to="item.route"
-						class="nav-link text-secondary d-flex align-items-center px-0 text-gray-500"
+						class="nav-link text-gray-700 d-flex align-items-center px-0"
 					>
 					<component
 						:is="item.icon"
@@ -24,8 +24,8 @@
         </li>
       </ul>
 
-      <h3 class="text-uppercase d-none d-md-flex align-items-center text-secondary fs-6">
-        <div class="bg-secondary me-3 ms-2" style="height: 1px; width: 25px;">&nbsp;</div>
+      <h3 class="text-uppercase d-none d-md-flex align-items-center text-gray-400 fs-6">
+        <div class="bg-gray-400 me-3 ms-2" style="height: 1px; width: 25px;">&nbsp;</div>
         professional
       </h3>
       <ul v-for="menu in menus2" :key="menu" class="ps-5 nav nav-pills flex-column mb-md-5 mb-0 align-items-center align-items-md-start" id="menu">
@@ -34,7 +34,7 @@
 						v-for="item in menu"
 						:key="item"
 						:to="item.route"
-						class="nav-link text-secondary d-flex align-items-center px-0 text-gray-500"
+						class="nav-link text-gray-700 d-flex align-items-center px-0"
 					>
 					<component
 						:is="item.icon"

@@ -1,8 +1,8 @@
 <template>
-  <div class="px-4 bg-gray-100">
+  <div class="px-4">
     <div class="d-flex flex-md-row flex-column justify-content-between align-items-center">
       <div class="text-md-start text-center">  
-        <h3 class="fs-6 text-secondary">Welcome Johnathan</h3>
+        <h3 class="fs-6 text-gray-700">Welcome Johnathan</h3>
         <h2 class="fs-4 text-dark">Analytical Dashboard</h2>
       </div>
       <div class="d-flex align-items-center mt-2 mt-md-0">
