@@ -39,7 +39,7 @@
           </div>
           <ul class="d-flex">
             <li class="text-primary me-5">Ample</li>
-            <li class="text-primary">Pixel Admin</li>
+            <li class="text-blue-100">Pixel Admin</li>
           </ul>
         </div>
         <img class="mt-4" src="assets/chart.png" alt="chart" style="height: 280px;">

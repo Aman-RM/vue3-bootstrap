@@ -2,13 +2,13 @@
   <div class="px-4">
     <div class="d-flex flex-md-row flex-column justify-content-between align-items-center">
       <div class="text-md-start text-center">  
-        <h3 class="fs-6 text-gray-700">Welcome Johnathan</h3>
+        <h3 class="fs-6 text-gray-500">Welcome Johnathan</h3>
         <h2 class="fs-4 text-dark">Analytical Dashboard</h2>
       </div>
       <div class="d-flex align-items-center mt-2 mt-md-0">
         <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            Today 23 March
+          <button class="btn bg-blue-100 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+           <span class="text-gray-600 fs-6">Today 23 March</span> 
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -26,11 +26,13 @@
     </div>
 
     <SalesEarning />
+    <SalesPerformance />
   </div>
 </template>
 
 <script>
 import SalesEarning from '../components/dashboard-partials/Sales&Earnings.vue'
+import SalesPerformance from '../components/dashboard-partials/Sales&Performance.vue'
 import {
 	PlusIcon 
 } from '@heroicons/vue/outline'
@@ -38,7 +40,8 @@ import {
 export default {
   components: {
 		PlusIcon,
-    SalesEarning
+    SalesEarning,
+    SalesPerformance
   }
 }
 </script>

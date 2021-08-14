@@ -2,6 +2,18 @@
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/utilities";
 
+$blues : ( "100": $blue-100, "200": $blue-200, "300": $blue-300, "400": $blue-400, "500": $blue-500, "600": $blue-600, "700": $blue-700, "800": $blue-800, "900": $blue-900) !default;
+
+@each $key, $value in $blues {
+  .bg-#{$key}{
+        background-color: $value !important;
+  }
+
+  .text-#{$key}{
+    color: $value !important;
+  }
+}
+
 //Generating All Shades of Gray
 @each $key, $value in $grays {
   .bg-gray-#{$key}{
@@ -9,18 +21,6 @@
   }
 
   .text-gray-#{$key}{
-    color: $value !important;
-  }
-}
-
-$blues : ( "100": $blue-100, "200": $blue-200, "300": $blue-300, "400": $blue-400, "500": $blue-500, "600": $blue-600, "700": $blue-700, "800": $blue-800, "900": $blue-900) !default;
-
-@each $key, $value in $blues {
-  .bg-blue-#{$key}{
-        background-color: $value !important;
-  }
-
-  .text-blue-#{$key}{
     color: $value !important;
   }
 }
