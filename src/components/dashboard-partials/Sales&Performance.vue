@@ -4,12 +4,15 @@
       <div class="card p-4" style="border-radius: 15px;">
         <div class="d-flex justify-content-between border-bottom pb-3">
           <div>
-            <h3 class="text-dark fs-5 m-0">Total Sales</h3>
+            <h3 class="text-dark fs-5 m-0 fw-thin">Total Sales</h3>
             <label class="text-gray-500" style="font-size:12px;">Overview of years</label>
           </div>
           <div class="dropdown">
-            <button class="btn bg-blue-100 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            <span class="text-gray-600 fs-6">Today 23 March</span> 
+            <button class="btn bg-blue-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="d-flex align-items-center">
+                <span class="text-gray-600 fs-6">Today 23 March</span> 
+                <ChevronDownIcon class="text-gray-600 ms-2" style="height: 16px"  />
+              </div>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -26,9 +29,9 @@
           <img class="w-auto" src="assets/piechart.png" alt="pie">
         </div>
         <ul class="d-flex w-100 justify-content-between mt-5">
-          <li>2021</li>
-          <li>2020</li>
-          <li>2019</li>
+          <li class="text-primary"><span class="text-gray-600">2021</span></li>
+          <li class="text-blue-600"><span class="text-gray-600">2020</span></li>
+          <li class="text-warning"><span class="text-gray-600">2019</span></li>
         </ul>
       </div>
     </div>
@@ -65,3 +68,16 @@
     </div>
   </div>
 </template>
+
+
+<script>
+import {
+  ChevronDownIcon
+} from '@heroicons/vue/outline'
+
+export default {
+  components: {
+    ChevronDownIcon
+  }
+}
+</script>

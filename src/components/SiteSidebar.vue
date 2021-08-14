@@ -47,7 +47,7 @@
       </ul>
 
       <div class="sidebar-footer-bg mb-5 ms-2 d-none d-md-block">
-        <p class="fs-5 text-dark fw-bold ps-4 pt-4">Upgrade to <br> Premium</p>
+        <p class="fs-6 text-dark fw-bold ps-4 pt-4">Upgrade to <br> Premium</p>
         <div class="ps-4">
           <button type="button" class="btn btn-primary text-white">Upgrade</button>
         </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex">
+    <div class="d-flex dm-sans">
         <sidebar />
         <div class="w-100">
             <Header />

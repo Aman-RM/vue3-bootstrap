@@ -3,7 +3,7 @@
     <div class="row w-100 g-5 row-cols-1 row-cols-sm-2">
       <div class="col w-50">
         <div class="report">
-            <p class="pt-4 fs-5 text-primary fw-bold ps-4">Hey, John <br> download latest report</p>
+            <p class="pt-4 fs-5 text-primary fw-thin ps-4">Hey, John <br> download latest report</p>
             <div class="ps-4">
               <button type="button" class="text-white btn btn-primary">Download</button>
             </div>
@@ -12,16 +12,16 @@
           <div class="row g-2">          
             <div class="p-4 card bg-primary col me-4" style="border-radius: 15px;">
               <div class="mb-3 d-flex justify-content-between">  
-                <label class="text-white">Earnings</label>
+                <label class="text-white" style="font-size: 18px;">Earnings</label>
                 <img src="assets/dollar.png" alt="dollar" style="height: 50px">
               </div>
               <label class="text-white fw-bold fs-4">$ 45620</label>
-              <span class="text-white">Monthly Revenue</span>
+              <span class="text-gray-500 fw-thin fs-6">Monthly Revenue</span>
             </div>
             <div class="p-4 bg-white card col position-relative" style="border-radius: 15px;">
               <div class="d-flex justify-content-between mb-3">
                 <div class="d-flex flex-column">
-                  <label class="text-secondary">Monthly Sales</label>
+                  <label class="text-secondary" style="font-size: 18px;">Monthly Sales</label>
                   <label class="text-dark fw-bold fs-4">45620</label>
                 </div> 
                 <img src="assets/sales.png" alt="dollar" style="height: 50px">
@@ -34,8 +34,8 @@
       <div class="col card p-4 w-50" style="border-radius: 15px;">
         <div class="d-flex justify-content-between align-items-center">
           <div>
-            <p class="fs-5 text-black fw-bold mb-0">Sales Overview</p>
-            <label class="text-secondary" style="font-size: 12px">Ample Admin vs Pixel Admin</label>
+            <p class="fs-5 text-black fw-thin mb-0">Sales Overview</p>
+            <label class="text-gray-500" style="font-size: 12px">Ample Admin vs Pixel Admin</label>
           </div>
           <ul class="d-flex">
             <li class="text-primary me-5">Ample</li>
