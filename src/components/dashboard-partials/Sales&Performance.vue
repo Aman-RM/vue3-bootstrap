@@ -39,15 +39,23 @@
       <table class="table">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th class="text-gray-400" style="font-weight: 300" scope="col">Assigned</th>
+            <th class="text-gray-400" style="font-weight: 300" scope="col">Name</th>
+            <th class="text-gray-400" style="font-weight: 300" scope="col">Priority</th>
+            <th class="text-gray-400" style="font-weight: 300" scope="col">Budget</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
+            <th class="d-flex" scope="row">
+              <img src="logo/avatar1.png" alt="avatar" style="height: 36px; width: 36px"/>
+              <div class="d-flex flex-column">
+                <label class="text-dark" style="font-size: 14px;">Sunil Joshi</label>
+                <label class="text-gray-500" style="font-size: 12px; font-weight: 300;">
+                  Web Designer
+                </label>
+              </div>
+            </th>
             <td>Mark</td>
             <td>Otto</td>
             <td>@mdo</td>
