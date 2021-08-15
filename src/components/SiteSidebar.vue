@@ -46,7 +46,7 @@
         </li>
       </ul>
 
-      <div class="sidebar-footer-bg mb-5 ms-2 d-none d-md-block">
+      <div class="sidebar-footer-bg mb-5 ms-2 d-none d-lg-block">
         <p class="fs-6 text-dark fw-bold ps-4 pt-4">Upgrade to <br> Premium</p>
         <div class="ps-4">
           <button type="button" class="btn btn-primary text-white">Upgrade</button>
@@ -71,6 +71,7 @@ import {
   CogIcon,
   UsersIcon,
   XIcon,
+  LocationMarkerIcon 
 } from '@heroicons/vue/outline'
 
 import { useRoute } from 'vue-router'
@@ -91,6 +92,7 @@ export default {
     CogIcon,
     UsersIcon,
     XIcon,
+    LocationMarkerIcon 
   },
 
   emits: ['toggle'],
@@ -153,7 +155,7 @@ export default {
         },
 				{
           title: 'Maps',
-          icon: 'view-grid-icon',
+          icon: 'location-marker-icon',
           route: '#',
           name: 'expenses',
         },

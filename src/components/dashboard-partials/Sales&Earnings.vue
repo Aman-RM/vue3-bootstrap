@@ -1,7 +1,6 @@
 <template>
-  <div class="mt-5 d-flex align-items-center d-flex-md-row d-flex-col">
-    <div class="row w-100 g-5 row-cols-1 row-cols-sm-2">
-      <div class="col w-50">
+    <div class="row w-100 mt-5 container">
+      <div class="col-lg">
         <div class="report">
             <p class="pt-4 fs-5 text-primary fw-thin ps-4">Hey, John <br> download latest report</p>
             <div class="ps-4">
@@ -31,7 +30,7 @@
           </div>
         </div>
       </div>
-      <div class="col card p-4 w-50" style="border-radius: 15px;">
+      <div class="card p-4 col-lg mt-lg-0 mt-4" style="border-radius: 15px;">
         <div class="d-flex justify-content-between align-items-center">
           <div>
             <p class="fs-5 text-black fw-thin mb-0">Sales Overview</p>
@@ -45,7 +44,6 @@
         <img class="mt-4" src="assets/chart.png" alt="chart" style="height: 280px;">
       </div>
     </div>
-  </div>
 </template>
 
 <style scoped>

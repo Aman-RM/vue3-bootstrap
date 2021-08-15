@@ -1,6 +1,6 @@
 <template>
-  <div class="row mt-5 g-5">
-    <div class="col-4">
+  <div class="row mt-5 container">
+    <div class="col-lg-4">
       <div class="card p-4" style="border-radius: 15px;">
         <div class="d-flex justify-content-between border-bottom pb-3">
           <div>
@@ -10,7 +10,7 @@
           <div class="dropdown">
             <button class="btn bg-blue-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               <div class="d-flex align-items-center">
-                <span class="text-gray-600 fs-6">Today 23 March</span> 
+                <span class="text-gray-600 fs-6">March 2021</span> 
                 <ChevronDownIcon class="text-gray-600 ms-2" style="height: 16px"  />
               </div>
             </button>
@@ -35,8 +35,27 @@
         </ul>
       </div>
     </div>
-    <div class="col-8">
-      <table class="table">
+    <div class="card col-lg-8 p-4" style="border-radius: 15px;">
+      <div class="d-flex justify-content-between mb-3">
+        <div>
+          <h3 class="text-dark fs-5 m-0 fw-thin">Products Performance</h3>
+          <label class="text-gray-500" style="font-size:12px;">Ample Admin vs Pixel Admin</label>
+        </div>
+        <div class="dropdown">
+          <button class="btn bg-blue-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="d-flex align-items-center">
+              <span class="text-gray-600 fs-6">March 2021</span> 
+              <ChevronDownIcon class="text-gray-600 ms-2" style="height: 16px"  />
+            </div>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+      <table class="table m-0">
         <thead>
           <tr>
             <th class="text-gray-400" style="font-weight: 300" scope="col">Assigned</th>
@@ -47,29 +66,74 @@
         </thead>
         <tbody>
           <tr>
-            <th class="d-flex" scope="row">
-              <img src="logo/avatar1.png" alt="avatar" style="height: 36px; width: 36px"/>
-              <div class="d-flex flex-column">
+            <th class="d-flex p-3" scope="row">
+              <img class="rounded-circle"  src="logo/avatar1.png" alt="avatar" style="height: 36px; width: 36px"/>
+              <div class="d-flex flex-column ms-2">
                 <label class="text-dark" style="font-size: 14px;">Sunil Joshi</label>
                 <label class="text-gray-500" style="font-size: 12px; font-weight: 300;">
                   Web Designer
                 </label>
               </div>
             </th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td class="text-gray-500 pt-4 p-3" style="font-size: 14px;">Elite Admin</td>
+            <td class="p-3"><button type="button" class="btn btn-primary btn-sm mt-1">Low</button></td>
+            <td class="text-dark fs-6 pt-4 p-3">$3.9k</td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <th class="d-flex p-3" scope="row">
+              <img class="rounded-circle"  src="logo/avatar1.png" alt="avatar" style="height: 36px; width: 36px"/>
+              <div class="d-flex flex-column ms-2">
+                <label class="text-dark" style="font-size: 14px;">Andrew McDownland</label>
+                <label class="text-gray-500" style="font-size: 12px; font-weight: 300;">
+                  Project Manager
+                </label>
+              </div>
+            </th>
+            <td class="text-gray-500 pt-4 p-3" style="font-size: 14px;">Real Homes WP Theme</td>
+            <td class="p-3"><button type="button" class="btn bg-blue-700 btn-sm mt-1 text-white">Medium</button></td>
+            <td class="text-dark fs-6 pt-4 p-3">$24.5k</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <th class="d-flex p-3" scope="row">
+              <img class="rounded-circle"  src="logo/avatar1.png" alt="avatar" style="height: 36px; width: 36px"/>
+              <div class="d-flex flex-column ms-2">
+                <label class="text-dark" style="font-size: 14px;">Christopher Jamil</label>
+                <label class="text-gray-500" style="font-size: 12px; font-weight: 300;">
+                  SEO Manager
+                </label>
+              </div>
+            </th>
+            <td class="text-gray-500 pt-4 p-3" style="font-size: 14px;">Medical Pro WP Theme</td>
+            <td class="p-3"><button type="button" class="btn btn-warning btn-sm mt-1 text-white">High</button></td>
+            <td class="text-dark fs-6 pt-4 p-3">$12.8k</td>
+          </tr>
+          <tr>
+            <th class="d-flex p-3" scope="row">
+              <img class="rounded-circle"  src="logo/avatar1.png" alt="avatar" style="height: 36px; width: 36px"/>
+              <div class="d-flex flex-column ms-2">
+                <label class="text-dark" style="font-size: 14px;">Nirav Joshi</label>
+                <label class="text-gray-500" style="font-size: 12px; font-weight: 300;">
+                  FrontEnd Engineer
+                </label>
+              </div>
+            </th>
+            <td class="text-gray-500 pt-4 p-3" style="font-size: 14px;">Hosting Press HTML</td>
+            <td class="p-3"><button type="button" class="btn btn-danger btn-sm mt-1 text-white">Low</button></td>
+            <td class="text-dark fs-6 pt-4 p-3">$2.8k</td>
+          </tr>
+          <tr>
+            <th class="d-flex p-3" scope="row">
+              <img class="rounded-circle"  src="logo/avatar1.png" alt="avatar" style="height: 36px; width: 36px"/>
+              <div class="d-flex flex-column ms-2">
+                <label class="text-dark" style="font-size: 14px;">Michel Doe</label>
+                <label class="text-gray-500" style="font-size: 12px; font-weight: 300;">
+                  Content Writer
+                </label>
+              </div>
+            </th>
+            <td class="text-gray-500 pt-4 p-3" style="font-size: 14px;">Helping Hands WP Theme</td>
+            <td class="p-3"><button type="button" class="btn btn-success btn-sm mt-1 text-white">Low</button></td>
+            <td class="text-dark fs-6 pt-4 p-3">$9.8k</td>
           </tr>
         </tbody>
       </table>

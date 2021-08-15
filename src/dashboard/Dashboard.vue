@@ -1,6 +1,6 @@
 <template>
-  <div class="px-4">
-    <div class="d-flex flex-md-row flex-column justify-content-between align-items-center">
+  <div>
+    <div class="d-flex flex-md-row flex-column justify-content-between align-items-center" style="padding: 0 35px">
       <div class="text-md-start text-center">  
         <h3 class="fs-6 text-gray-500">Welcome Johnathan</h3>
         <h2 class="fs-3 text-dark">Analytical Dashboard</h2>
@@ -30,12 +30,14 @@
 
     <SalesEarning />
     <SalesPerformance />
+    <WeeklyStats />
   </div>
 </template>
 
 <script>
 import SalesEarning from '../components/dashboard-partials/Sales&Earnings.vue'
 import SalesPerformance from '../components/dashboard-partials/Sales&Performance.vue'
+import WeeklyStats from '../components/dashboard-partials/WeeklyStats.vue'
 import {
 	PlusIcon,
   ChevronDownIcon
@@ -46,7 +48,8 @@ export default {
 		PlusIcon,
     SalesEarning,
     SalesPerformance,
-    ChevronDownIcon
+    ChevronDownIcon,
+    WeeklyStats
   }
 }
 </script>
