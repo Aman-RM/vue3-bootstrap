@@ -1,6 +1,6 @@
 <template>
-  <div class="row mt-5 container">
-    <div class="col-lg-4">
+  <div class="row mt-5 container-fluid">
+    <div class="col-12 col-lg-4">
       <div class="card p-4" style="border-radius: 15px;">
         <div class="d-flex justify-content-between border-bottom pb-3">
           <div>
@@ -35,7 +35,7 @@
         </ul>
       </div>
     </div>
-    <div class="card col-lg-8 p-4" style="border-radius: 15px;">
+    <div class="card col-12 col-lg-8 p-4 mt-lg-0 mt-4" style="border-radius: 15px;">
       <div class="d-flex justify-content-between mb-3">
         <div>
           <h3 class="text-dark fs-5 m-0 fw-thin">Products Performance</h3>
@@ -75,9 +75,9 @@
                 </label>
               </div>
             </th>
-            <td class="text-gray-500 pt-4 p-3" style="font-size: 14px;">Elite Admin</td>
-            <td class="p-3"><button type="button" class="btn btn-primary btn-sm mt-1">Low</button></td>
-            <td class="text-dark fs-6 pt-4 p-3">$3.9k</td>
+            <td class="text-gray-500 pt-0 pt-lg-4 p-3" style="font-size: 14px;">Elite Admin</td>
+            <td class="p-3"><button type="button" class="btn btn-primary btn-sm mt-0 mt-lg-1">Low</button></td>
+            <td class="text-dark fs-6 pt-lg-4 p-3">$3.9k</td>
           </tr>
           <tr>
             <th class="d-flex p-3" scope="row">
@@ -89,9 +89,9 @@
                 </label>
               </div>
             </th>
-            <td class="text-gray-500 pt-4 p-3" style="font-size: 14px;">Real Homes WP Theme</td>
-            <td class="p-3"><button type="button" class="btn bg-blue-700 btn-sm mt-1 text-white">Medium</button></td>
-            <td class="text-dark fs-6 pt-4 p-3">$24.5k</td>
+            <td class="text-gray-500 pt-0 pt-lg-4 p-3" style="font-size: 14px;">Real Homes WP Theme</td>
+            <td class="p-3"><button type="button" class="btn bg-blue-700 btn-sm mt-0 mt-lg-1 text-white">Medium</button></td>
+            <td class="text-dark fs-6 pt-0 pt-lg-4 p-3">$24.5k</td>
           </tr>
           <tr>
             <th class="d-flex p-3" scope="row">
@@ -103,9 +103,9 @@
                 </label>
               </div>
             </th>
-            <td class="text-gray-500 pt-4 p-3" style="font-size: 14px;">Medical Pro WP Theme</td>
-            <td class="p-3"><button type="button" class="btn btn-warning btn-sm mt-1 text-white">High</button></td>
-            <td class="text-dark fs-6 pt-4 p-3">$12.8k</td>
+            <td class="text-gray-500 pt-0 pt-lg-4 p-3" style="font-size: 14px;">Medical Pro WP Theme</td>
+            <td class="p-3"><button type="button" class="btn btn-warning btn-sm mt-0 mt-lg-1 text-white">High</button></td>
+            <td class="text-dark fs-6 pt-0 pt-lg-4 p-3">$12.8k</td>
           </tr>
           <tr>
             <th class="d-flex p-3" scope="row">
@@ -117,9 +117,9 @@
                 </label>
               </div>
             </th>
-            <td class="text-gray-500 pt-4 p-3" style="font-size: 14px;">Hosting Press HTML</td>
-            <td class="p-3"><button type="button" class="btn btn-danger btn-sm mt-1 text-white">Low</button></td>
-            <td class="text-dark fs-6 pt-4 p-3">$2.8k</td>
+            <td class="text-gray-500 pt-0 pt-lg-4 p-3" style="font-size: 14px;">Hosting Press HTML</td>
+            <td class="p-3"><button type="button" class="btn btn-danger btn-sm mt-0 mt-lg-1 text-white">Low</button></td>
+            <td class="text-dark fs-6 pt-0 pt-lg-4 p-3">$2.8k</td>
           </tr>
           <tr>
             <th class="d-flex p-3" scope="row">
@@ -131,9 +131,9 @@
                 </label>
               </div>
             </th>
-            <td class="text-gray-500 pt-4 p-3" style="font-size: 14px;">Helping Hands WP Theme</td>
-            <td class="p-3"><button type="button" class="btn btn-success btn-sm mt-1 text-white">Low</button></td>
-            <td class="text-dark fs-6 pt-4 p-3">$9.8k</td>
+            <td class="text-gray-500 pt-0 pt-lg-4 p-3" style="font-size: 14px;">Helping Hands WP Theme</td>
+            <td class="p-3"><button type="button" class="btn btn-success btn-sm mt-0 mt-lg-1 text-white">Low</button></td>
+            <td class="text-dark fs-6 pt-0 pt-lg-4 p-3">$9.8k</td>
           </tr>
         </tbody>
       </table>

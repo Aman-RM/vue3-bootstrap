@@ -70,7 +70,7 @@
 
 <style scoped>
 @media (min-width:992px) {
-    .timeline-container {
+    .timeline-container-fluid {
         margin: 0 auto
     }
 

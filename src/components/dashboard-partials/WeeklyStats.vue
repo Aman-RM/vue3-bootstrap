@@ -1,5 +1,5 @@
 <template>
-  <div class="row my-5 container">
+  <div class="row my-5 container-fluid">
     <div class="col-lg mt-lg-0 mt-3">
       <img src="assets/blog.png" class="w-100" alt="blog">
       <div class="border p-4" style="border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;">
@@ -83,7 +83,7 @@
           <button class="btn bg-gray-200 btn-sm" type="button" style="font-size: 12px">
             <span class="text-gray-600">+68%</span>
           </button>
-          <img class="bottom-0 position-absolute w-100 start-0 h-25" src="assets/wave.png" alt="wave">
+          <img class="bottom-0 position-absolute w-100 start-0 h-25 d-none d-lg-block" src="assets/wave.png" alt="wave">
         </div>
       </div>
     </div>
