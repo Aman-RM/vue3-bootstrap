@@ -1,6 +1,6 @@
 <template>
-  <div class="row my-5 container-fluid">
-    <div class="col-lg mt-lg-0 mt-3">
+  <div class="row my-5 container-fluid mx-0">
+    <div class="col-lg mt-lg-0 mt-3 px-0" style="margin-right: 12px">
       <img src="assets/blog.png" class="w-100" alt="blog">
       <div class="border p-4" style="border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;">
         <div>

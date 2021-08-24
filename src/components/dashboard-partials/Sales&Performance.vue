@@ -1,6 +1,6 @@
 <template>
-  <div class="row mt-5 container-fluid">
-    <div class="col-12 col-lg-4">
+  <div class="row mt-5 container-fluid mx-0">
+    <div class="col-12 col-lg-4 px-0 pe-lg-3">
       <div class="card p-4" style="border-radius: 15px;">
         <div class="d-flex justify-content-between border-bottom pb-3">
           <div>

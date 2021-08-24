@@ -1,5 +1,5 @@
 <template>
-    <div class="row w-100 mt-5 container-fluid">
+    <div class="row w-100 mt-5 container-fluid mx-0 me-lg-3">
       <div class="col-lg">
         <div class="report">
             <p class="pt-4 fs-5 text-primary fw-thin ps-4">Hey, John <br> download latest report</p>
